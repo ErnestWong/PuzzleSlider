@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PuzzleSlider</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="play">Play</string>
+    <string name="settings">Settings</string>
+
+    <drawable name="background_color">#2588B3E5</drawable>
+
+    <string name="split_3">Split 3</string>
+    <string name="split_4">Split 4</string>
+    <string name="split_5">Split 5</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="select_img">Select Image</string>
+
+</resources>
