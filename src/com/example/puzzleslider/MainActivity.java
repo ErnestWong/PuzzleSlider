@@ -357,15 +357,11 @@ public class MainActivity extends Activity implements OnTouchListener {
 			return;
 		}
 
-		for (int i = 0; i < imagetiles.size(); i++) {
-			if (imagetiles.get(i) != correctImage.get(i)) {
-				String TAG2 = "NotEqual";
-				Log.d(TAG2, "notequal");
-				return;
-			}
+		//check if correctImage array is equal to the current array of images
+		if(correctImage.equals(tiles)){
+			solved = true;
+			String TAG = "Solved";
+			Log.d(TAG, "Congratulations!");
 		}
-		solved = true;
-		String TAG = "Solved";
-		Log.d(TAG, "Congratulations!");
 	}
 }
